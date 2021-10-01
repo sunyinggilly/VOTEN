@@ -30,10 +30,6 @@
 * Use the scripts in Train/{DATASET}/
 * Will train the model and save the model in Data/Saved/{DATASET}/[VOTERS or DNN]/model
 
-## t-test
-* Run multiple times of the performance evaluation on each model
-* Save the results as .csv files in Ttest/data/{DATASET}/{MODEL_NAME}.csv. One test for each row. The column names are prc and auc.
-* Run Ttest/ttest.py
 
 # Explanation
 
@@ -48,3 +44,5 @@
 * Start the server: python manage.py runserver 0.0.0.0:8000
 * Use the system in browser with URL: 127.0.0.1:8000/{global/local}/{covtyp/kdc/ijcai/cens}
 
+# Citation
+If you use this code, please cite our paper "Discerning Decision-Making Process of Deep Neural Networks with Hierarchical Voting Transformation" published in NeurIPS 2021.
